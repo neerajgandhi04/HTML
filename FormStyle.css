@@ -6,20 +6,17 @@ fieldset {
   border-color: transparent;
   padding-top: 10px;
 }
-fieldset:last{
-    padding-top: 50px;
-}
 input {
   border-color: transparent;
   border-radius: 10px;
   width: 450px;
   float: right;
 }
-input:last-child{
-    float: none;
-    width: 50%;
+input:last-child {
+  float: none;
+  width: 50%;
 
-    margin: auto;
+  margin: auto;
 }
 legend {
   font-size: large;
@@ -28,6 +25,10 @@ div {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-#submitbtn{
-    margin: auto;
+#lasttable {
+  margin-top: 10px;
+}
+#submit {
+  margin-left: 38%;
+  width: 150px;
 }
