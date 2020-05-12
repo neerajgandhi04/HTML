@@ -1,0 +1,33 @@
+fieldset {
+  background: #a7cfb1;
+  width: 700px;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: transparent;
+  padding-top: 10px;
+}
+fieldset:last{
+    padding-top: 50px;
+}
+input {
+  border-color: transparent;
+  border-radius: 10px;
+  width: 450px;
+  float: right;
+}
+input:last-child{
+    float: none;
+    width: 50%;
+
+    margin: auto;
+}
+legend {
+  font-size: large;
+}
+div {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#submitbtn{
+    margin: auto;
+}
